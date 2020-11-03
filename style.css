@@ -1,1 +1,25 @@
+span {
+  display: inline;
+  background: yellow;
+  /* inline-Element akzeptiert keine Größenangaben*/
+  width: 500px;
+  height: 100px;
+}
 
+/*responsive Bilder*/
+img {
+  display: block;
+  width: 100%;
+}
+
+div,
+p {
+  display: inline;
+}
+
+strong {
+  /*visuell nicht mehr hervorgehoben, aber für Maschine schon*/
+  font-weight: normal;
+  /*400 entspricht normal*/
+  font-weight: 400;
+}
